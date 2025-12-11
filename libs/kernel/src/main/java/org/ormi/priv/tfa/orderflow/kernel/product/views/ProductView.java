@@ -16,9 +16,13 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
 /**
- * TODO: Complete Javadoc
+ * Modèle de vue (read-side) pour Product.
+ * Projection dénormalisée utilisée par le service de requête pour les recherches et consultations.
+ * Construit à partir des événements de domaine via le pattern CQRS.
+ *
+ * @author Order Flow Team
+ * @version 1.0
  */
-
 @Getter
 public class ProductView {
     

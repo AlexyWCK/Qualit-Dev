@@ -9,9 +9,8 @@ import io.smallrye.mutiny.subscription.MultiEmitter;
 import jakarta.enterprise.context.ApplicationScoped;
 
 /**
- * TODO: Complete Javadoc
+ * Service de diffusion des événements de produit via WebSocket. Notifie les clients connectés.
  */
-
 @ApplicationScoped
 public class ProductEventBroadcaster {
 

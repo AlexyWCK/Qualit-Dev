@@ -16,7 +16,7 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
 /**
- * TODO: Complete Javadoc
+ * Entité de domaine racine d'agrégat. Représente un produit avec son cycle de vie.
  */
 
 @Getter

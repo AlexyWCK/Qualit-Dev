@@ -28,9 +28,12 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response.Status;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST (BFF) pour les opérations produits.
+ * Façade qui délègue aux services de domaine et de requête.
+ * Endpoints: register, update (nom/description), retire, view, search.
+ *
+ * @author Order Flow Team
  */
-
 @Path("/products")
 @Produces(MediaType.APPLICATION_JSON)
 public class ProductRpcResource {

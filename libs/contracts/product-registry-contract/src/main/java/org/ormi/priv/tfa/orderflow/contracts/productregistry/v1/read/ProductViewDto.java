@@ -8,9 +8,11 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 /**
- * TODO: Complete Javadoc
+ * DTO de transfert pour la vue Product (read-side).
+ * Représente les données du produit renvoyées par l'API de requête.
+ *
+ * @author Order Flow Team
  */
-
 public record ProductViewDto(
         String id,
         String skuId,

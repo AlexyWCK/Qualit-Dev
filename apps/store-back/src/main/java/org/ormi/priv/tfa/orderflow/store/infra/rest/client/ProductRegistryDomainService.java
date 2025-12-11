@@ -14,7 +14,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
 /**
- * TODO: Complete Javadoc
+ * Client REST pour communiquer avec le service product-registry-domain-service. Interface de domaine.
  */
 
 @ApplicationScoped

@@ -8,9 +8,8 @@ import org.ormi.priv.tfa.orderflow.contracts.productregistry.v1.write.RegisterPr
 import org.ormi.priv.tfa.orderflow.kernel.product.SkuIdMapper;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper pour convertir entre DTOs de commande et objets métier.
  */
-
 @Mapper(
     componentModel = "cdi",
     builder = @Builder(disableBuilder = true),

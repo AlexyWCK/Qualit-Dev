@@ -15,9 +15,8 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Implémentation JPA du repository OutboxRepository. Gère la persistance des messages outbox.
  */
-
 @ApplicationScoped
 @DefaultBean
 public class JpaOutboxRepository implements PanacheRepository<OutboxEntity>, OutboxRepository {

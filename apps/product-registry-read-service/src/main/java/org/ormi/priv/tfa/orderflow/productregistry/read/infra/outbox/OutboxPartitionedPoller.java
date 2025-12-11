@@ -33,7 +33,7 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Poller pour récupérer les événements depuis l'outbox partitionné. Récupère les messages en attente.
  */
 
 @ApplicationScoped

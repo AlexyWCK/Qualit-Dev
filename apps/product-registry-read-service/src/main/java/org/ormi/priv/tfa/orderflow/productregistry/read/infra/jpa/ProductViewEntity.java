@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA pour la persistance de la vue lecture de produit. Mappe ProductView en base.
  */
 
 @Getter

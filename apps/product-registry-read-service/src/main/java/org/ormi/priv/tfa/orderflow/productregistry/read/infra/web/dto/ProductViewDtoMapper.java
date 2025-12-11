@@ -28,7 +28,7 @@ import org.ormi.priv.tfa.orderflow.kernel.product.views.ProductView.ProductViewC
 import org.ormi.priv.tfa.orderflow.kernel.product.views.ProductView.ProductViewEvent;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper pour convertir ProductView en ProductViewDto pour la réponse REST.
  */
 
 @Mapper(componentModel = "cdi", builder = @Builder(disableBuilder = false), uses = {

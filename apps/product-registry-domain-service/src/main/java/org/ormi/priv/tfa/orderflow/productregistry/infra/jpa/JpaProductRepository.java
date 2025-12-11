@@ -16,9 +16,8 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Implémentation JPA du repository ProductRepository. Gère la persistance des produits.
  */
-
 @ApplicationScoped
 public class JpaProductRepository implements PanacheRepositoryBase<ProductEntity, UUID>, ProductRepository {
 

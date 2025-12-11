@@ -21,9 +21,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA pour le journal des événements. Enregistre tous les événements de domaine.
  */
-
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PUBLIC)

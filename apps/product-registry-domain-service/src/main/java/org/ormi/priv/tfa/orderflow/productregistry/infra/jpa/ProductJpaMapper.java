@@ -9,9 +9,8 @@ import org.ormi.priv.tfa.orderflow.kernel.product.ProductIdMapper;
 import org.ormi.priv.tfa.orderflow.kernel.product.SkuIdMapper;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper MapStruct pour convertir entre Product et ProductEntity.
  */
-
 @Mapper(
     componentModel = "cdi",
     builder = @Builder(disableBuilder = false),

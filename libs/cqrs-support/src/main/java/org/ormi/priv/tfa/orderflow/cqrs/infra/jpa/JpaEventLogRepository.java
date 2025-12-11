@@ -12,9 +12,8 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Implémentation JPA du repository EventLogRepository. Utilise Panache pour la persistance.
  */
-
 @ApplicationScoped
 @DefaultBean
 public class JpaEventLogRepository implements PanacheRepository<EventLogEntity>, EventLogRepository {

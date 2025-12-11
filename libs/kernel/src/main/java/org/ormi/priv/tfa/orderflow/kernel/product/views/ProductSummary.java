@@ -12,7 +12,7 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
 /**
- * TODO: Complete Javadoc
+ * Vue résumée d'un produit pour la consultation. Projection en lecture simplifiée.
  */
 
 @Getter

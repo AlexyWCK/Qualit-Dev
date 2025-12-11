@@ -9,9 +9,12 @@ import org.ormi.priv.tfa.orderflow.kernel.product.ProductEventV1.ProductRegister
 import org.ormi.priv.tfa.orderflow.kernel.product.ProductEventV1.ProductRetired;
 
 /**
- * TODO: Complete Javadoc
+ * Classe abstraite enveloppe spécialisée pour les événements ProductEventV1.
+ * Encapsule les événements avec métadonnées (séquence, timestamp).
+ *
+ * @param <E> le type d'événement ProductEventV1 encapsulé
+ * @author Order Flow Team
  */
-
 public abstract class ProductEventV1Envelope<E extends ProductEventV1> extends EventEnvelope<E> {
 
     public ProductEventV1Envelope(E event, Long sequence, Instant timestamp) {

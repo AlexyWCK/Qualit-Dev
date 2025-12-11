@@ -8,9 +8,8 @@ import org.ormi.priv.tfa.orderflow.kernel.product.SkuId;
 import org.ormi.priv.tfa.orderflow.kernel.product.views.ProductView;
 
 /**
- * TODO: Complete Javadoc
+ * Interface repository pour accéder aux vues ProductView en base de données.
  */
-
 public interface ProductViewRepository {
     void save(ProductView productView);
     Optional<ProductView> findById(ProductId id);

@@ -29,9 +29,8 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.UriInfo;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST pour les opérations de commande sur les produits. Endpoints HTTP write-side.
  */
-
 @Path("/products")
 @Produces(MediaType.APPLICATION_JSON)
 public class ProductRegistryCommandResource {

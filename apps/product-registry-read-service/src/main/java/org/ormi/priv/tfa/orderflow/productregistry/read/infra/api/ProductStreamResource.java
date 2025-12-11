@@ -3,7 +3,7 @@ package org.ormi.priv.tfa.orderflow.productregistry.read.infra.api;
 import jakarta.ws.rs.Path;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST pour le stream WebSocket des événements de produit. Endpoint read-side.
  */
 
 @Path("/products")

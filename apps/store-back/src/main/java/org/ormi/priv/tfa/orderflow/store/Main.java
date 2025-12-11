@@ -5,9 +5,11 @@ import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
 
 /**
- * TODO: Complete Javadoc
+ * Classe principale de démarrage de l'application store-back.
+ * Point d'entrée Quarkus pour le service BFF.
+ *
+ * @author Order Flow Team
  */
-
 @QuarkusMain
 public class Main {
 

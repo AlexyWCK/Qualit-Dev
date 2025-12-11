@@ -18,9 +18,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA pour la table outbox. Gère les messages en attente de publication.
  */
-
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor

@@ -17,9 +17,8 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Service applicatif pour la mise à jour d'un produit. Gère les modifications métier.
  */
-
 @ApplicationScoped
 public class UpdateProductService {
 

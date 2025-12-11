@@ -22,7 +22,7 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST pour les opérations de requête (query) sur les produits. Endpoints HTTP read-side.
  */
 
 @Path("/products")

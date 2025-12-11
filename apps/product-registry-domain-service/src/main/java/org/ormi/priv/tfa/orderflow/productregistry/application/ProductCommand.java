@@ -4,9 +4,8 @@ import org.ormi.priv.tfa.orderflow.kernel.product.ProductId;
 import org.ormi.priv.tfa.orderflow.kernel.product.SkuId;
 
 /**
- * TODO: Complete Javadoc
+ * Interface scellée pour les commandes de produit. Représente les actions métier possibles.
  */
-
 public sealed interface ProductCommand {
     public record RegisterProductCommand(
             String name,

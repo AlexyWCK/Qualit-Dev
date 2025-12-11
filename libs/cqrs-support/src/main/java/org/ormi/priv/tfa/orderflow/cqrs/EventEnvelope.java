@@ -4,9 +4,8 @@ import java.time.Instant;
 import java.util.UUID;
 
 /**
- * TODO: Complete Javadoc
+ * Enveloppe générique pour les événements de domaine. Encapsule métadonnées et événement.
  */
-
 public class EventEnvelope<E extends DomainEvent> {
     private final E event;
     private final Long sequence;

@@ -6,9 +6,8 @@ import org.ormi.priv.tfa.orderflow.cqrs.DomainEvent;
 import org.ormi.priv.tfa.orderflow.kernel.Product;
 
 /**
- * TODO: Complete Javadoc
+ * Interface scellée pour les événements de domaine version 1. Base pour tous les événements produit.
  */
-
 public sealed interface ProductEventV1 extends DomainEvent {
     public static final int EVENT_VERSION = 1;
 

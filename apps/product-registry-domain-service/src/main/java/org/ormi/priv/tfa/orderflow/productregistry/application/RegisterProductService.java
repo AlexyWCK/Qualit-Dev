@@ -16,9 +16,8 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Service applicatif pour l'enregistrement d'un nouveau produit. Coordonne la persistance et les événements.
  */
-
 @ApplicationScoped
 public class RegisterProductService {
 

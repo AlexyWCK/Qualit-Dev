@@ -17,9 +17,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA pour la persistance des produits. Mappe le modèle métier en base de données.
  */
-
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PUBLIC)

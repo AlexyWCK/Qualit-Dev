@@ -13,9 +13,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper MapStruct pour convertir entre EventEnvelope et EventLogEntity.
  */
-
 @Mapper(
     componentModel = "cdi",
     unmappedTargetPolicy = ReportingPolicy.IGNORE,

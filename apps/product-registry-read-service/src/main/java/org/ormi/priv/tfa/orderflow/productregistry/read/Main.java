@@ -5,7 +5,7 @@ import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
 
 /**
- * TODO: Complete Javadoc
+ * Classe principale de démarrage du service product-registry-read-service.
  */
 
 @QuarkusMain

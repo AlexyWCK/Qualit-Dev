@@ -12,9 +12,11 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.QueryParam;
 
 /**
- * TODO: Complete Javadoc
+ * Client REST pour communiquer avec le service de requête (product-registry-read-service).
+ * Expose les méthodes pour accéder aux vues de produits et rechercher.
+ *
+ * @author Order Flow Team
  */
-
 @ApplicationScoped
 @Path("/products")
 @RegisterRestClient(configKey = "product-registry-read-api")

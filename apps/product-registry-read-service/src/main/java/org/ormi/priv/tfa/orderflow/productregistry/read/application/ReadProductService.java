@@ -14,9 +14,8 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
 /**
- * TODO: Complete Javadoc
+ * Service applicatif pour la lecture des produits. Accède aux projections ProductView.
  */
-
 @ApplicationScoped
 public class ReadProductService {
 
